@@ -11,10 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Haroon Khan </span>
             from <span className="purple"> Shergarh, Pakistan.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I have completed a Certificate in Software Engineering at General Assembly.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -24,17 +21,17 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Working Out
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Spending Time with Family
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Working hard is simple, but not easy."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Haroon</footer>
         </blockquote>
       </Card.Body>
     </Card>

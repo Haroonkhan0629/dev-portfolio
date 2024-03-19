@@ -6,7 +6,7 @@ import {
   SiSlack,
   SiMacos,
 } from "react-icons/si";
-import { BiLogoZoom } from "react-icons/bi";
+
 
 function Toolstack() {
   return (
@@ -22,9 +22,6 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <BiLogoZoom />
       </Col>
     </Row>
   );

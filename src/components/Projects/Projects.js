@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import finch from "../../Assets/Projects/Screen Shot 2024-03-16 at 2.31.47 PM.png";
+import emoji from "../../Assets/Projects/Screen Shot 2024-03-19 at 11.53.46 AM.png";
+import fit2go from "../../Assets/Projects/Screen Shot 2024-03-16 at 9.16.48 PM.png";
+import fit2gopro from "../../Assets/Projects/Screen Shot 2024-03-19 at 11.57.22 AM.png";
+import drhealth from "../../Assets/Projects/Screen Shot 2024-03-16 at 3.24.43 PM.png";
 
 function Projects() {
   return (
@@ -23,70 +22,59 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={fit2gopro}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Fit2Go-Pro"
+              description="Engineered a mobile based Full-Stack Fitness Application utilizing UX/UI Design principles, User Authentication, saved data, simple navigation and databases for a dynamically built Website."
+              ghLink="https://github.com/Haroonkhan0629/nutrition-frontend"
+              demoLink="https://fit2go-pro.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={finch}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="The Finch Collector"
+              description="Manufactured a responsive Full-Stack Collector Application administering uniquely built in features for an interactive and UX/UI Designed Website."
+              ghLink="https://github.com/Haroonkhan0629/finch_collector"
+              demoLink="https://finch-collector-a586.onrender.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={drhealth}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Dr. Health"
+              description="Directed the production of a Full-Stack Health Application as the Front-End Lead in collaboration with Back-End Engineers to generate a cooperative Website."
+              ghLink="https://github.com/Haroonkhan0629/DrHealthFrontEnd/tree/main"
+              demoLink="https://cerulean-puppy-08071b.netlify.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={fit2go}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Fit2Go"
+              description="Constructed a functional Full-Stack Fitness Application handling User Authentication, saved data, straightforward navigation and databases for a distinct Website."
+              ghLink="https://github.com/Haroonkhan0629/Fit2Go"
+              demoLink="https://fit2go-gtmn.onrender.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={emoji}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Emoji-Man"
+              description="Assembled a fully responsive hangman variation game implementing optimal programming practices."
+              ghLink="https://github.com/Haroonkhan0629/hangmanProject"
+              demoLink="https://haroonkhan0629.github.io/hangmanProject/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
         </Row>
       </Container>
     </Container>

@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import finch from "../../Assets/Projects/Screen Shot 2024-03-16 at 2.31.47 PM.png";
 import emoji from "../../Assets/Projects/Screen Shot 2024-03-19 at 11.53.46 AM.png";
 import fit2go from "../../Assets/Projects/Screen Shot 2024-03-16 at 9.16.48 PM.png";
-import fit2gopro from "../../Assets/Projects/Screen Shot 2024-03-19 at 11.57.22 AM.png";
+import fit2gopro from "../../Assets/Projects/Screen Shot 2024-03-19 at 12.07.15 PM.png";
 import drhealth from "../../Assets/Projects/Screen Shot 2024-03-16 at 3.24.43 PM.png";
 
 function Projects() {

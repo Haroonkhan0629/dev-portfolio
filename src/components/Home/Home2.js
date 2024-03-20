@@ -22,7 +22,7 @@ function Home2() {
               I love Programming! I continue to experience and expand in new languages and frameworks while learning more sophisticated level of code.
               <br />
               <br />
-              My field of Interest's are creating, sustaining and updating &nbsp;
+              My interests include creating, sustaining and updating &nbsp;
               <i>
                 <b className="purple">Web Technologies </b> and
                 {" "}
